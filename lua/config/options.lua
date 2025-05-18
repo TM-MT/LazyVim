@@ -4,4 +4,6 @@
 local opt = vim.opt
 opt.relativenumber = false
 opt.smoothscroll = false
-opt.spelllang = { "en", "jp" }
+-- JP is not available
+-- see https://ftp.nluug.nl/pub/vim/runtime/spell/
+opt.spelllang = { "en" }
