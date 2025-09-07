@@ -6,4 +6,4 @@ opt.relativenumber = false
 opt.smoothscroll = false
 -- JP is not available
 -- see https://ftp.nluug.nl/pub/vim/runtime/spell/
-opt.spelllang = { "en" }
+opt.spelllang = {}
