@@ -82,6 +82,18 @@ return {
               color = function() return { fg = Snacks.util.color("Special") } end,
             },
             {
+              function()
+                local status = require("sidekick.status").cli()
+                return "" .. (#status > 1 and #status or "")
+              end,
+              cond = function()
+                return #require("sidekick.status").cli() > 0
+              end,
+              color = function()
+                return { fg = Snacks.util.color("Special") }
+              end,
+            },
+            {
               "diff",
               symbols = {
                 added = icons.git.added,
