@@ -25,3 +25,4 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
   group = swift_lsp,
 })
+vim.lsp.enable("bashls")
