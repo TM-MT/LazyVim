@@ -4,6 +4,14 @@ return {
     opts = {
       nes = { enabled = false },
       cli = {
+        tools = {
+          -- copilot alraedy has deault config but I provide additional options
+          -- for display issue
+          -- see https://github.com/folke/sidekick.nvim/issues/258#issuecomment-4049190203
+          copilot = {
+            cmd = { "copilot", "--alt-screen" },
+          },
+        },
         prompts = {
           explain_changes = [[Please explain the latest changes by function from three perspectives:
           functionality, changes, and scope of impact of the changes.]],
