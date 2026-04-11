@@ -4,10 +4,10 @@ return {
     opts = {
       picker = {
         sources = {
+          -- @type snacks.picker.explorer.Config
           explorer = {
-            files = {
-              hidden = true,
-            },
+            hidden = true,
+            ignored = true,
           },
         },
       },
