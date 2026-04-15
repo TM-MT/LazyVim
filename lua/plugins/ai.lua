@@ -15,7 +15,7 @@ return {
         prompts = {
           explain_changes = [[Please explain the latest changes by function from three perspectives:
           functionality, changes, and scope of impact of the changes.]],
-          review_staged_changes = [[ステージされた変更を確認し、以下の項目をチェックしてください
+          review_staged_changes = [[ステージされた変更を確認し、以下の項目をレビューしてください
           - [ ] プロジェクトのコーディング規約に従っているか
           - [ ] コードの配置はリポジトリの設計思想に照らし合わせて適切か
           - [ ] 設計の一貫性が崩れることはないか
